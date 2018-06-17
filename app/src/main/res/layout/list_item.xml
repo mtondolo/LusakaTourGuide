@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout">
+
+    <ImageView
+        android:id="@+id/location_image_view"
+        style="@style/ListItemViews"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1.5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_shortcut_app" />
+
+    <TextView
+        android:id="@+id/location_name_text_view"
+        style="@style/ListItemViews"
+        android:layout_weight="0.5"
+        android:fontFamily="sans-serif-light"
+        android:text="Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description_text_view"
+        style="@style/ListItemViews"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-light"
+        android:text="Description"
+        android:textStyle="bold" />
+
+</LinearLayout>
